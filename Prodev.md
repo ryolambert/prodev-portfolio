@@ -25,7 +25,8 @@ Career Buddy: Joy Corsi
 
 30% Tactile
 
-## Visual Speaks
+### Visual Speaks
+
 ***
 
 
@@ -37,10 +38,9 @@ Career Buddy: Joy Corsi
 *   I've taught, run, and orchestrated martial arts programs as afterschool and summercamps with on average 25 students per class and over 100 students total from the ages of 4 years old to 18 years old. 
 
 ### Qualitative Features  
-Strengths & Weaknesses
 *   I am extremely creative in both artistic and technological applications
-*   I have a penchant for tra
-*   Thing 3
+*   I have a penchant for detail work, making sure the little things all fit together. 
+*   Dedicated and self-starting, I'm a self taught graphic designer who's done freelance work for a couple of clients here in NM. 
 
 ### Creativity & Logic Balance in Passion Projects
 
@@ -79,10 +79,6 @@ Hi, my name is Ryo Lambert. I'm a web developer, frontend engineer, but I'd like
 
 
 
-</div>
-
-<div name="reflections">
-
 ## Weekly Reflections
 
 ### Week 1
@@ -95,5 +91,4 @@ Thus far, everything has been fairly intense! Some of the best parts of this wee
 
 Spicy jalapeno bacon ipsum dolor amet shoulder shankle jerky spare ribs ham drumstick turducken kielbasa chicken doner meatball landjaeger bresaola cow. Jerky ball tip pastrami cow pork belly corned beef shoulder. Pancetta leberkas kevin salami. Chicken strip steak shankle, kielbasa kevin bresaola tri-tip cupim pork loin andouille pork belly jowl chuck. Salami ball tip tongue, kevin beef leberkas boudin. Pancetta bacon short ribs shank.
 
-</div>
-
+### Week 3 

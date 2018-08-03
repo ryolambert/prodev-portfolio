@@ -1,19 +1,33 @@
 .home-page {
-	background-image: url(https://images.unsplash.com/photo-1527643448713-eea496619e3c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=03d10151edc9ba2fb460343f52b6b6b5&auto=format&fit=crop&w=1234&q=80);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	margin-top: 300px;
+	background: rgba(82,148,240,1);
+	background: -moz-linear-gradient(-45deg, rgba(82,148,240,1) 0%, rgba(12,245,179,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(82,148,240,1)), color-stop(100%, rgba(12,245,179,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(82,148,240,1) 0%, rgba(12,245,179,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(82,148,240,1) 0%, rgba(12,245,179,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(82,148,240,1) 0%, rgba(12,245,179,1) 100%);
+	background: linear-gradient(135deg, rgba(82,148,240,1) 0%, rgba(12,245,179,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5294f0', endColorstr='#0cf5b3', GradientType=1 );
+}
 
+.title-head {
+	color: white;
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
 }
-.main-box{
-	padding-left: 30%;
-	padding-right: 30%;
+
+.title-subhead{
+	color: white;
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
 }
-.box-shadow{
-	-webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.37);
-	-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.37);
-	box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.37);
+
+.nudge {
+	margin-left: 8%;
+	text-align: center;
+}
+
+.box-shadow {
+	-webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.37);
+	box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.37);
 }
 
 .persona-content {
@@ -23,9 +37,8 @@
 hr {
 	width: 97%;
 	border-top: 1px solid #96E6B3;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 
 h1 {
 	color: #111;
@@ -70,4 +83,33 @@ li {
 	font-family: 'Inconsolata', monospace;
 	font-size: 16px;
 	text-justify: inter-word;
+}
+
+table {
+	width: 100%;
+	color: #96E6B3;
+	margin: auto;
+	border-radius: 10%;
+	-webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.37);
+	box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.37);
+}
+
+table td,
+table th {
+	background-color: #333;
+	padding: 10px;
+}
+
+th {
+	font-family: 'Oswald', sans-serif;
+}
+
+td {
+	font-family: 'Inconsolata', monospace;
+}
+
+.left-column {
+	font-family: 'Oswald', sans-serif;
+
 }
