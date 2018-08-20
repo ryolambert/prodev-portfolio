@@ -2,47 +2,101 @@
 <html lang="en">
 
 	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css"
-				href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
-				integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
-				crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Oswald|Inconsolata" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"
+				integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- Link to personal stylized CSS -->
 		<link rel="stylesheet" type="text/css" href="./style.css"/>
+
+
+		<!-- jQuery, Popper.js, then Bootstrap JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+				  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+				  crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+				  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+				  crossorigin="anonymous"></script>
 		<title>My Professional Development Journey</title>
 	</head>
 
 	<body class="home-page">
-		<div class="container text-center">
-			<h1 class="title-head">My Professional Development Journey</h1>
-			<h2 class="title-subhead">- Ryo Lambert</h2>
-			<hr/>
-		</div>
-		<div class="container">
-			<div class="well col-xs-12 col-md-12 col-lg-12 box-shadow text-center m-auto">
-				<div>
-					<h2>My Links</h2>
-					<p><a href="https://www.linkedin.com/in/ryolambert/">LinkedIn</a></p>
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="#">ProDev</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+							  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-					<p><a href="https://twitter.com/_RelevantDesign">Twitter</a></p>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#1">Visual</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#2">Features</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#3">Pitch</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#4">Reflections</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#5">Web Identity</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
 
-					<p><a href="#">Medium</a></p>
-
-					<p><a href="ryoLambertResume.pdf">Resume Download Link</a></p>
-
-					<p>Last updated: August 13th, 2018</p>
-					<p>Career Buddy: Marlon Peseke</p>
+		<section class="py-5">
+			<div class="container">
+				<div class="jumbotron card-background box-shadow">
+					<h1 class="display-5 px-5 mx-auto text-center">My Professional Development Journey</h1>
+					<h2 class="display-6 px-5 mx-auto text-center"><em>- Ryo Lambert</em></h2>
 				</div>
 			</div>
-		</div>
+		</section>
 
+		<section class="mb-5">
+			<div class="container">
+				<div class="row">
+					<div
+						class="card col-xs-5 col-sm-5 col-md-5 col-lg-5 px-auto py-4 mx-auto box-shadow text-center justify-content-center card-background">
+						<p class="lead"><strong>My Links</strong></p>
+						<p><a href="https://www.linkedin.com/in/ryolambert/">LinkedIn</a></p>
 
+						<p><a href="https://twitter.com/_RelevantDesign">Twitter</a></p>
+
+						<p><a href="#">Medium</a></p>
+
+						<p><a href="ryoLambertResume.pdf">Resume Download Link</a></p>
+					</div>
+					<div
+						class="card col-xs-5 col-sm-5 col-md-5 col-lg-5 px-auto py-4 mx-auto box-shadow text-center justify-content-center card-background">
+						<p class="lead">Last updated: August 13th, 2018</p>
+						<p class="lead">Career Buddy: Marlon Peseke</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+		</section>
 		<div class="container">
-			<div class="well col-xs-12 col-md-12 col-lg-12 box-shadow">
-				<h2>Homework Activities</h2>
-				<hr/>
+			<div class="card col-xs-12 col-md-12 col-lg-12 pt-auto box-shadow card-background">
 				<div class="persona-content">
+					<h2>Homework Activities</h2>
+					<hr/>
+					<br/>
 					<h3>My Learning Style</h3>
 					<p>
 						<strong>Visual</strong>
@@ -50,9 +104,10 @@
 					<p>30% Auditory</p>
 					<p>40% Visual</p>
 					<p>30% Tactile</p>
-					<h3>Visual Speaks</h3>
+					<br/>
+					<h3 id="1">Visual Speaks</h3>
 					<hr/>
-					<img src="visual-speaks.jpg" class="img-responsive center-block box-shadow"
+					<img src="visual-speaks.jpg" class="img-fluid justify-content-center box-shadow"
 						  alt="Picture of Kids Holding Weights and Firefighter Helping Woman"
 					/>
 					<p>
@@ -80,20 +135,21 @@
 						</li>
 					</ul>
 					<br/>
-					<h3>Qualitative Features</h3>
+					<h3 id="2">Qualitative Features</h3>
 					<p>Strengths &amp; Weaknesses</p>
-					<ul>
+					<ol>
 						<li>I am extremely inventive and artistic in technological applications.</li>
+						<li>asdfasd</li>
 						<li>I have a penchant for thinking out the box and creative problem solving.</li>
 						<li>I love creating things that have an optimal balance between aesthetic and function.</li>
-					</ul>
+					</ol>
 					<br/>
 					<!--<h3>Creativity &amp; Logic Balance in Passion Projects</h3>-->
 					<!--<br/>-->
 					<!--<p></p>-->
 					<h3>Golden Circle</h3>
 					<p>
-						<em>Why</em>
+						<em>Why?</em>
 					</p>
 					<ol>
 						<li>Technology should help augment the human experience, not takeaway. And I'd like
@@ -101,7 +157,7 @@
 						</li>
 					</ol>
 					<p>
-						<em>How</em>
+						<em>How?</em>
 					</p>
 					<ol start="2">
 						<li>By coding, designing, planning, engaging people, getting a web developer job,
@@ -115,7 +171,7 @@
 						<li>Websites, web-apps, mobile-apps, digital art, ui/ux design, community research/events.</li>
 					</ol>
 					<br/>
-					<h3>Elevator Pitch</h3>
+					<h3 id="3">Elevator Pitch</h3>
 					<hr/>
 					<p>
 						<strong>Version 1</strong>
@@ -142,15 +198,27 @@
 						to think of myself as a digital nomad or creative... I love building web apps,
 						sites, and digital experiences to connect people with the communities, services,
 						and products that enrich their lives.</p>
-						<br/>
+					<br/>
 					<h3>What's Cooking in the Career Kitchen?</h3>
 					<hr/>
-					<img src="Burner%20Activity.JPG" class="img-responsive center-block box-shadow"
+					<img src="Burner%20Activity.JPG" class="img-fluid center-block box-shadow"
 						  alt="Picture of 4 burners and the opportunities I have lined up"
 					/>
-
-					<h2>Weekly Reflections</h2>
+					<br/>
+					<br/>
+					<h3>Potential 🤷 ‍& Persuasion 💁‍️- Marketing Activity</h3>
 					<hr/>
+					<ol>
+						<li>Has anyone ever told you that you got potential? Do you believe it? Why, Why not?</li>
+						<li>What are internal and external factors keeping you from achieving your goal> How can you overcome
+							them?
+						</li>
+						<li>How do you create value for others?</li>
+					</ol>
+
+					<h2 class="pt-4" id="4">Weekly Reflections</h2>
+					<hr/>
+					<br/>
 					<h3>Week 1</h3>
 					<p>Thus far, everything has been fairly intense! Some of the best parts of this
 						week has really been getting up to speed with the schedule, and familiarizing
@@ -209,19 +277,20 @@
 					<p>Reflection- On Why I Love Coding <br/>
 						A tid bit as to why I love coding is because of the immense flexibility and the endless applications
 						it has in solving real-world problems!</p>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="well col-xs-12 col-md-12 col-lg-12 box-shadow" id="web-identity">
-				<h2>Web Identity</h2>
-				<hr/>
-				<div class="persona-content">
+
+					<h3>Week 6</h3>
+					<p>There were definitely a couple of late really late nights this week, but I'm really glad I had them because I got to experience how great the tech community is here in ABQ. In particular, got to meet and hear from some interesting people and groups down at FatPipe, but the best event in my opinion was making it down to Lavu for the Intro to React Meetup that was hosted and held by Sidney, Elisa, and Sam! I really loved the atmosphere over there and how welcoming and informative their team is at Lavu! Definitely will be looking to explore the React Ecosystem a lot more (to both Dylan and George's chagrin  😜).</p>
+
+					<p>Reflection- On Why I Love Coding <br/>
+						After this week I have to say I love coding because of its potential to bring people together, collaborate, share, and build each other up! </p>
+
+					<h2 id="5" class="pt-4">Web Identity</h2>
+					<hr/>
 					<p> Below is a map of my web identities. I feel like I have a decent web presence with my social media
 						accounts, but they could use a bit more polish, substantive content, and I definitely need a portfolio
 						site! All of which would really help potential employers connect with me and qualify some of my
 						expertise.</p>
-					<table>
+					<table class="mx-auto">
 						<tr>
 							<th></th>
 							<th>Professional</th>
@@ -247,19 +316,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="well col-xs-12 col-md-12 col-lg-12 box-shadow">
-				<h2></h2>
-				<hr/>
-				<div class="persona-content">
-
-				</div>
-			</div>
-		</div>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 	</body>
 
 </html>
